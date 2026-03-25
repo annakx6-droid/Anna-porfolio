@@ -97,7 +97,7 @@ const ContactForm = () => {
 
           <button
             className={`submit-btn ${submitted ? "sent" : ""}`}
-            onClick={handleSubmit}
+            onSubmit={handleSubmit}
             disabled={submitted}
           >
             <span className="btn-text">
