@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+ <title>Contact Us</title>
+
+ <!-- Google Fonts -->
+ <link rel="preconnect" href="https://fonts.googleapis.com"/>
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+ <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+
+ <!-- EmailJS SDK -->
+ <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+  <link rel="stylesheet" crossorigin href="/Anna-porfolio/assets/index-DOjWdaeC.css">
+</head>
+<body>
+
+ <div class="contact-wrapper">
+  <div class="noise"></div>
+
+  <div class="contact-card">
+   <div class="card-header">
+    <span class="tag">GET IN TOUCH</span>
+    <h1 class="heading">Let's <em>talk</em></h1>
+    <p class="subtext">Drop us a message and we'll get back to you.</p>
+   </div>
+
+   <div class="form-body">
+    <div class="field">
+     <label for="name">Name</label>
+     <input id="name" type="text" placeholder="Your full name" />
+    </div>
+
+    <div class="field">
+     <label for="email">Email</label>
+     <input id="email" type="email" placeholder="you@example.com" />
+    </div>
+
+    <div class="field">
+     <label for="message">Message</label>
+     <textarea id="message" rows="5" placeholder="What's on your mind?"></textarea>
+    </div>
+
+    <button class="submit-btn" id="submitBtn" onclick="handleSubmit()">
+     <span class="btn-text" id="btnText">Send Message</span>
+     <span class="btn-glow"></span>
+    </button>
+   </div>
+
+   <div class="accent-bar"></div>
+  </div>
+ </div>
+
+ 
+</body>
+</html>
